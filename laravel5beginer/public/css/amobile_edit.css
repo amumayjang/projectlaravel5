@@ -1,0 +1,114 @@
+a {
+    text-decoration: none;
+    color: #898989;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ff5c01;
+}
+
+ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+.top-bar {
+    max-height: 20px;
+    background: #e8e8e8;
+}
+
+.text-wellcome {
+    float: left;
+}
+
+.menu-login {
+    float: right;
+}
+
+.menu-login li {
+    float: left;
+    border-left:1px solid #c2c2c2;
+    padding:0 15px;
+}
+
+.menu-login li:last-child{
+    border-right:1px solid #c2c2c2;
+}
+
+.support-address img {
+    float: left;
+    width:20%;
+}
+
+.support-address span {
+    float: right;
+    padding:0 5px;
+}
+
+.header {
+
+}
+
+.logo-header {
+    padding:15px 0;
+}
+
+.search-header {
+    padding-top: 30px;
+}
+
+.search-header input {
+    border: 1px solid #c2c2c2;
+    font-size: 14px;
+    height: 40px;
+    padding: 10px;
+}
+
+.search-header button {
+    border: 1px solid #c2c2c2;
+    font-size: 15px;
+    font-weight:bold;
+    background: #ff5c01;
+    height: 40px;
+    color: #fff;
+}
+
+.search-header ul li {
+    border-right: 1px solid #c2c2c2;
+    float: left;
+    padding:15px 15px;
+    line-height: 10px;
+}
+.search-header ul li:last-child {
+    border-right:none;
+}
+
+.support-address {
+    padding-top: 30px;
+}
+
+.nav {
+    background: #ff5c01;
+}
+
+.nav-container {
+
+}
+
+.nav-container ul li {
+    float: left;
+    padding:15px 20px 15px 20px;
+    position: relative;
+}
+
+.menu-item a {
+    color: #fff;
+}
+
+.menu-item:hover {
+    background: #f1f6f8;
+    color: #252525;
+}
+

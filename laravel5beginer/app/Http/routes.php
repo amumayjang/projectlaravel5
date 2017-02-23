@@ -20,5 +20,5 @@ Route::controllers([
 	'password' => 'Auth\PasswordController',
 ]);
 Route::get('amobilesite', function(){
-	return view("amobile_home");
+	return view("amobile_home_site");
 });
