@@ -1,0 +1,214 @@
+body {
+    z-index: 1;
+}
+a {
+    text-decoration: none;
+    color: #898989;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ff5c01;
+}
+
+ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+.top-bar {
+    max-height: 20px;
+    background: #e8e8e8;
+}
+
+.text-wellcome {
+    float: left;
+}
+
+.text-wellcome a {
+    color: #ff5c01;
+}
+
+.menu-login {
+    float: right;
+}
+
+.menu-login li {
+    float: left;
+    border-left:1px solid #c2c2c2;
+    padding:0 15px;
+}
+
+.menu-login li:last-child{
+    border-right:1px solid #c2c2c2;
+}
+
+.support-address img {
+    float: left;
+    width:20%;
+}
+
+.support-address span {
+    float: right;
+    padding:0 5px;
+}
+
+.header {
+
+}
+
+.logo-header {
+    padding:15px 0;
+}
+
+.search-header {
+    padding-top: 30px;
+}
+
+.search-header input {
+    border: 1px solid #c2c2c2;
+    font-size: 14px;
+    height: 40px;
+    padding: 10px;
+}
+
+.search-header button {
+    border: 1px solid #c2c2c2;
+    font-size: 15px;
+    font-weight:bold;
+    background: #ff5c01;
+    height: 40px;
+    color: #fff;
+}
+
+.search-header ul li {
+    border-right: 1px solid #c2c2c2;
+    float: left;
+    padding:15px 15px;
+    line-height: 10px;
+}
+.search-header ul li:last-child {
+    border-right:none;
+}
+
+.support-address {
+    padding-top: 30px;
+}
+
+.nav {
+    background: #ff5c01;
+    max-height: 50px;
+}
+
+.nav-container {
+
+}
+
+.menu-item {
+    float: left;
+    padding:15px 20px 15px 20px;
+    position: relative;
+    color: #fff;
+}
+
+.menu-item a {
+    color: #fff;
+}
+
+.menu-item:hover, .menu-item:hover>a {
+    background: #f1f6f8;
+    color: #252525;
+}
+
+.menu-sub {
+    background: #f1f6f8;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 220px;
+    display: none;
+    z-index: 1000;
+}
+
+.menu-item:hover .menu-sub {
+    display: block;
+}
+
+.menu-sub-item {
+    padding:15px 20px 15px 20px;
+    border-bottom: 1px dashed rgb(194, 194, 194);
+    position: relative;
+}
+
+.menu-sub-item a {
+    color: #252525;
+}
+
+.menu-sub-item a:hover {
+    color: #ff5c01;
+}
+
+.menu--sub {
+    background: #ffff;
+    position: absolute;
+    left: 100%;
+    top: -1px;
+    border: 1px solid rgb(235, 235, 235);
+    display: none;
+}
+
+.menu-sub-item:hover .menu--sub {
+    display: block;
+}
+
+.menu--sub-item {
+    padding:15px 20px 15px 20px;
+    border-bottom: 1px dashed rgb(194, 194, 194);
+}
+
+.cart-nav {
+    float: right;
+    max-height: 50px;
+    background: #000;
+    color: #fff;
+}
+
+.cart-nav i {
+    float: left;
+    padding: 5px 10px;
+}
+
+.cart-nav .count-product{
+    float: right;
+    padding: 5px 10px;
+}
+
+.first-module {
+    padding-top: 50px;
+}
+
+.catalog ul {
+    border: 1px solid rgb(235, 235, 235);
+}
+
+.title-catalog {
+    height: 50px;
+    background: #ff5c01;
+    color: #fff;
+}
+
+.title-catalog li {
+    float: left;
+    padding: 5px;
+}
+
+.title-catalog li i {
+    padding-top: 4px;
+    padding-left: 10px;
+}
+
+.catalog-bg {
+    background: #f1f6f8;
+}
+
